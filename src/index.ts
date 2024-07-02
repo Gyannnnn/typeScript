@@ -1,4 +1,8 @@
-let a: string = "23 ";
-let b:string="GYanaranjan";
-console.log('a')
-console.log('b')
+// let surname:string | number;
+// surname = 90
+
+const func =(n:number,m:number) : number =>{
+    console.log(m,n)
+    return m*n  
+
+}
