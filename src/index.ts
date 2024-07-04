@@ -7,7 +7,14 @@
 
 // }
 
-let numberOne =3;
-let numberTwo = "3";
-let sum = numberOne+numberTwo;
-console.log(sum)
+// let numberOne =3;
+// let numberTwo = "3";
+// let sum = numberOne+numberTwo;
+// console.log(sum)
+
+console.log("Gyanranjan Patra");
+let greetings:string = "Hello Gyanranjan Patra"
+let myNUm = 3;
+console.log(myNUm)
+let val = greetings.toUpperCase()
+console.log(val)
