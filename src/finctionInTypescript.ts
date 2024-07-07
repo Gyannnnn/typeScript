@@ -1,6 +1,6 @@
 function addTwoNumber(a: number, b: number): number {
   console.log(a + b);
-  return a + b;
+  return a+b ;
 }
 
 function getUpperCase(val: string) {
