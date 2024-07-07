@@ -9,6 +9,11 @@ function getUpperCase(val: string) {
   
 }
 
+function signUpuser(name: string,email: string ,isPaid: boolean){ console.log("Name :",name,"Email :",email,"Status :",isPaid)}
+function logInUser(name:string,email:string,isPaid:boolean =  false){}
+logInUser("Gyanaranjan Patra","gyan@gg.com")
+signUpuser("gyanaranjan Patra","gyan@xyz.dev",true)
+
 getUpperCase('Gyanaranjan Patra');
 
 addTwoNumber(12, 89);
