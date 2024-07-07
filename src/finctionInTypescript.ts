@@ -1,6 +1,14 @@
-function addTwo(num: number){
-    console.log(num)
-    return num+23
+function addTwoNumber(a: number, b: number): number {
+  console.log(a + b);
+  return a + b;
 }
 
-addTwo(99)
+function getUpperCase(val: string) {
+  let upperCaseValue:string = val.toUpperCase();
+  console.log(upperCaseValue)
+  
+}
+
+getUpperCase('Gyanaranjan Patra');
+
+addTwoNumber(12, 89);
